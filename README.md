@@ -1,4 +1,4 @@
-#SE Project 1
+# SE Project 1
 ### by Garrett Mestel
 
 ##Added so far
@@ -7,8 +7,8 @@
 * ILinkedList Interface
 * H1 class
 * H1test2 with working Test
-* 
-##Changes
-*removed everything
-*added everything from a new form
-*added working test 
+
+## Changes
+* removed everything
+* added everything from a new form
+* added working test 
