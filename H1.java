@@ -19,7 +19,10 @@ public class H1 implements ILinkedList<Integer>{
     }
     public ILinkedList<Integer> after(int n){
         H1 temp = this;
-        for(int i = 0; i < n; i++){    
+        for(int i = 0; i < n; i++){
+            if (temp == null){
+                throw new NullPointerException("Is longer then Length");
+            }
             temp = temp.nextList;
 
         }

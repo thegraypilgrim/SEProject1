@@ -84,6 +84,18 @@ public class H1Test2 {
     }
 
     @Test
+    public void afterWithANullPointer(){
+        try{
+            H1 a = new H1(4);
+            a.after(4);
+            assertEquals(true, false);
+        }
+        catch(Exception e){
+            assertEquals(e.getMessage(), "Is longer then Length");
+        }
+    }
+
+    @Test
     public void detachWithOneItems() {
         H1 a = new H1(3);
         a.detach();
