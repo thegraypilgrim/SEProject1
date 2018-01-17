@@ -1,7 +1,7 @@
 # SE Project 1
 ### by Garrett Mestel
 
-##Added so far
+## Added so far
 * README
 * gitignore
 * ILinkedList Interface
